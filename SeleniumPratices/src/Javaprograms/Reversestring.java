@@ -4,18 +4,7 @@ import java.util.Scanner;
 
 public class Reversestring 
 {
-	public static void reversestring(char[]ch,int length)
-	{
-		
-		if(length>0)
-		{
-			System.out.println(ch[length-1]);
-			length--;
-		
-		reversestring(ch, length);
-		}
-	}
-	
+
 	
 	public static void main(String[] args) {
 		
@@ -23,10 +12,30 @@ public class Reversestring
 		System.out.println("Enter string name");
 		String str=scan.nextLine();
 		
-		char[] ch=str.toCharArray();//converts string to charaarray
-		int length=ch.length;
+	/* 
+	 	int len=str.length();
+	 
 		
-		reversestring(ch, length);
+		String rev="";
+		for(int i=len-1;i>=0;i--)
+		{
+			rev=rev+str.charAt(i);
+			
+		}
+		System.out.println(rev);
+	*/
+		
+ /*	 //string buffer
+		
+		StringBuffer sb= new StringBuffer(str);
+		System.out.println(sb.reverse());
+		
+	*/	
+		
+		StringBuilder sb1 =new StringBuilder(str);
+		System.out.println(sb1.reverse());
+		
+		
 		
 
 	}
