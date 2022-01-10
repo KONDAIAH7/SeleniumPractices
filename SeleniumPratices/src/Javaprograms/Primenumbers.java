@@ -18,7 +18,7 @@ public class Primenumbers {
 				
 			}
 			if(k==0)
-				System.out.println("primenumbers are"+i);
+				System.out.print("primenumbers are"+i);
 		}
 
 	}
