@@ -16,7 +16,7 @@ public class Firstscript {
 		System.setProperty("webdriver.ie.driver", "E:\\\\TESTING\\\\Drivers\\\\iedriverserver.exe");
 		//WebDriver driver = new ChromeDriver();
 		
-		//WebDriver driver = new FirefoxDriver();
+		
 		
 		WebDriver driver =new InternetExplorerDriver();
 		
