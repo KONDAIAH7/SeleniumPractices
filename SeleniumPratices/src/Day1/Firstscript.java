@@ -17,7 +17,6 @@ public class Firstscript {
 		//WebDriver driver = new ChromeDriver();
 		
 		
-		
 		WebDriver driver =new InternetExplorerDriver();
 		
 		driver.get("https://www.selenium.dev/downloads/");
